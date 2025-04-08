@@ -1,12 +1,12 @@
 # SQL LLM 查詢系統
 
-這是一個使用自然語言查詢資料庫的應用系統，結合了 LLM（大型語言模型）和 MySQL 資料庫的功能。
+這是一個使用自然語言查詢資料庫的應用系統，結合了 LLM（大型語言模型）和 MySQL 資料庫的功能。 主要使用ollama並搭配phi4模型。
 
 ## 功能特點
 
 - 使用自然語言進行資料庫查詢
 - 自動生成 SQL 查詢語句
-- 即時執行查詢並顯示結果
+- 執行查詢並顯示結果
 - 自動解釋查詢結果
 - 支援多種資料庫表格結構
 
@@ -15,7 +15,7 @@
 - 前端：Streamlit
 - 後端：Python
 - 資料庫：MySQL
-- LLM：Ollama（支援多種開源模型）
+- LLM：Ollama（支援多種開源模型）- phi4-14B
 
 ## 安裝需求
 
@@ -25,13 +25,13 @@
 
 ## 安裝步驟
 
-1. 克隆專案：
+1. clone專案：
 ```bash
 git clone https://github.com/your-username/sql_llm_system.git
 cd sql_llm_system
 ```
 
-2. 安裝 Python 依賴：
+2. 安裝 Python 相關套件：
 ```bash
 pip install -r requirements.txt
 ```
