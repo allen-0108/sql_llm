@@ -13,7 +13,7 @@ DB_CONFIG = {
 }
 
 # Ollama 設定
-OLLAMA_MODEL = os.getenv('OLLAMA_MODEL', 'llama2')
+OLLAMA_MODEL = os.getenv('OLLAMA_MODEL', 'phi4')
 OLLAMA_HOST = os.getenv('OLLAMA_HOST', 'http://localhost:11434')
 
 # 系統提示詞
